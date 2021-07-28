@@ -2,6 +2,7 @@
 
 # PickleC2-Bot
 This discord bot will help you to control your target through PickleC2   
+
 ![run](screenshot/run.png)
 
 # WHAT's a PickleC2?
@@ -15,10 +16,13 @@ PickleC2 has the ability to import your own PowerShell module for Post-Exploitat
 # USAGE
 
 ## List Listeners
+
 ![listener_list](screenshot/listener_list.png)
 
 ## List Implants
+
 ![implant_list](screenshot/implant_list.png)
+
 ## Interact
 
 ### Powershell
@@ -32,6 +36,7 @@ PickleC2 has the ability to import your own PowerShell module for Post-Exploitat
 ## Help
 
 In the help option you can see the help of the functions
+
 ![help](screenshot/help.png)
 
 ### Help Implant
@@ -71,5 +76,7 @@ chmod +x bot.py
 ```
 
 NOTE: After installing the script, you'll need to create a discord dev account to generate a bot token then you'll have to put it in the **bot.py**
+
+I want to say a special thank to <a href="https://github.com/xRET2pwn" target="_blank" rel="noopener">@xRET2pwn</a> for giving me help and support . 
 
 Happy Hacking :)
