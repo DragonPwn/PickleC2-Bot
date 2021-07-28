@@ -1,7 +1,7 @@
 ![bk](screenshot/bk.png)
 
 # PickleC2-Bot
-This discord bot will help you to control your target through PickleC2 
+This discord bot will help you to control your target through PickleC2   
 ![run](screenshot/run.png)
 
 # WHAT's a PickleC2?
