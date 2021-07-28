@@ -39,7 +39,6 @@ connector.cursor()
 client = commands.Bot(command_prefix = ">")
 client.remove_command("help")
 
-
 #--------------------------------------------------
 #ready_event
 
@@ -47,7 +46,6 @@ client.remove_command("help")
 async def on_ready():
 
     print(f'{client.user.name} has connected to Discord!')
-
 
 #--------------------------------------------------
 #welcom_event
@@ -59,9 +57,9 @@ async def on_member_join(member):
     await member.dm_channel.send(
         f'Hi {member.name}, welcome to PickleC2 Discord server!')
 
-
 #--------------------------------------------------
 #help_list
+
 @client.group(invoke_without_command=True)
 async def help(ctx):
 
@@ -75,10 +73,9 @@ async def help(ctx):
 
     await ctx.send(embed = em)
 
-
-
 #--------------------------------------------------
 #listener_list
+
 @help.command()
 async def listener(ctx):
 
@@ -88,10 +85,9 @@ async def listener(ctx):
 
     await ctx.send(embed = em)
 
-
-
 #--------------------------------------------------
 #implant_list
+
 @help.command()
 async def implant(ctx):
 
@@ -100,8 +96,6 @@ async def implant(ctx):
     em.add_field(name = "**Active**",value = ">implant_list")
 
     await ctx.send(embed = em)
-
-
 
 #--------------------------------------------------
 #module_list
@@ -222,6 +216,7 @@ def execute_command(binary,command,name,key):
 
     return file
 
+#--------------------------------------------------
 #Powershell Handler
 
 @client.command()
@@ -245,6 +240,7 @@ async def powershell(ctx, implant, command):
 
     await ctx.send("```\n[+] %s Results is returned\n\n%s\n```" % (name,file))
 
+#--------------------------------------------------
 #CMD Handler
 
 @client.command()
