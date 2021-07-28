@@ -75,8 +75,10 @@ git clone https://github.com/Sh4d3-Pwn3r/PickleC2-Bot.git
 chmod +x bot.py
 ```
 
-NOTE: After installing the script, you'll need to create a discord dev account to generate a bot token then you'll have to put it in the **bot.py**
+NOTE: After installing the script, you'll need to create a discord dev account to generate a bot token then you'll have to put it in the **bot.py** 
 
-I want to say a special thank to <a href="https://github.com/xRET2pwn" target="_blank" rel="noopener">@xRET2pwn</a> for giving me help and support . 
+# Credit
+
+I want to say a special thank to <a href="https://github.com/xRET2pwn" target="_blank" rel="noopener">@xRET2pwn</a> for giving me help and support .
 
 Happy Hacking :)
